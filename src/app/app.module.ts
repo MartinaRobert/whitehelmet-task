@@ -14,10 +14,10 @@ import { UserUpdateDialogComponent } from './users/users/user-update-dialog.comp
 import { AttractionsListComponent } from './attractions/attractions-list/attractions-list.component';
 import { CreateUpdateAttractionDialogComponent } from './attractions/create-update-attraction-dialog.component';
 import { PetSalesComponent } from './pet-sales/pet-sales/pet-sales.component';
-import { ErrorHandlerInterceptor } from './core/errorhandler.interceptor';
+import { ErrorHandlerInterceptor } from './core/interceptors/errorhandler.interceptor';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LoaderInterceptor } from './core/loader.interceptor';
+import { LoaderInterceptor } from './core/interceptors/loader.interceptor';
 
 @NgModule({
   declarations: [
