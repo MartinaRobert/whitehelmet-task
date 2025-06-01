@@ -1,0 +1,15 @@
+.echarts-container {
+    width: 100%; /* Or 100% and use flexbox */
+    height: 400px;
+    // margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+  }
+.section {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h5{
+    height: 50px;
+    background-color: lightgrey;
+    padding-top: 7px;
+}

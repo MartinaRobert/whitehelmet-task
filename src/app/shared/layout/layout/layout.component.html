@@ -1,0 +1,20 @@
+<mat-toolbar color="primary" class="app-header">
+    <span class="app-title">My Admin App</span>
+
+    <span class="toolbar-spacer"></span>
+
+    <nav class="main-nav" *ngIf="isLoggedIn$ | async">
+        <button mat-button routerLink="/users" routerLinkActive="active-link">Users</button>
+        <button mat-button routerLink="/attractions" routerLinkActive="active-link">Attractions</button>
+        <button mat-button routerLink="/pet-sales" routerLinkActive="active-link">Pet Sales</button>
+        <button mat-button  (click)="logout()" routerLinkActive="active-link">logout</button>
+    </nav>
+</mat-toolbar>
+
+<main class="app-main-content">
+    <router-outlet></router-outlet>
+</main>
+
+<footer class="app-footer">
+    <p>&copy; 2025 My Admin App</p>
+    </footer>
